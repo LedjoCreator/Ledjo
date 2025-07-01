@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background:linear-gradient(135deg,#376579,#3e7486,#2c6177);
+    color: #fff;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 1200px;
+    width: 100%;
+    padding: 40px 20px;
+    text-align: center;
+    margin-bottom: 5px;
+}
+#tittle{
+    font-size: 2.5rem ;
+    margin-bottom: 65px;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px,1fr));
+    gap: 25px;
+}
+.card{
+    background:rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255,255, 255, 0.2);
+    border-radius: 15px;
+    padding: 30px 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease ;
+    cursor: pointer;
+    backdrop-filter: blur(10px);
+    align-items: center;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 0 20px cornflowerblue;
+}
+.song-name{
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+.play{
+    font-size: 22px;
+    background-color: rgb(208, 209, 211);
+    color: black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    line-height: 50px;
+}
+.play:hover{
+    background-color: cornflowerblue;
+    transform: scale(1.1);
+}
+@keyframes pulse {
+    0% {
+        transform: scale(1.05);
+    }
+    50% {
+        transform: scale(1.05);
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+#tralalelo_tralala{
+     background:url('https://imgs.crazygames.com/italian-brainrot-clicker-usp_16x9/20250430033904/italian-brainrot-clicker-usp_16x9-cover?metadata=none&quality=40&width=1200&height=630&fit=crop');
+     background-size: cover;
+    }
+#apt{
+    background:url('https://i1.sndcdn.com/artworks-OsgQpdjwzyKW3lAE-Gxwsxw-t500x500.jpg');
+    background-size: cover;
+}
+#fein{
+    background:url('https://www.nme.com/wp-content/uploads/2023/12/travis_scott_2023.jpg');
+    background-size: cover;
+}
+#shake_a_body{
+    background:url('https://i.ytimg.com/vi/wQ2SiXYk5_Y/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLB2zH82DRhoh0raRQwujaMbtXEXDQ');
+    background-size: cover;
+}
+#balai-rocky{
+    background:url('https://i.ytimg.com/vi/51k0btJq-aA/maxresdefault.jpg');
+    background-size: cover;
+}
+#zjerm{
+    background:url('https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/ESC2025_Albania_16.jpg/250px-ESC2025_Albania_16.jpg');
+    background-size: cover;
+}
+#baby{
+    background:url('https://previews.123rf.com/images/olesiabilkei/olesiabilkei1407/olesiabilkei140700051/30287335-pretty-baby-girl-in-pink-dress.jpg');
+    background-size: cover;
+}
+#smile{
+    background:url('https://f4.bcbits.com/img/a3509386200_16.jpg');
+    background-size: cover;
+}
+#anxiety{
+    background:url('https://i.ytimg.com/vi/SXHXjF8-rNM/hqdefault.jpg');
+    background-size: cover;
+}
+#klavdia{
+    background:url('https://www.tovima.com/wp-content/uploads/2025/05/13/250505_Sarah-Louise-Bennett_EBU_8730-scaled.jpg');
+    background-size: cover;
+}
+
